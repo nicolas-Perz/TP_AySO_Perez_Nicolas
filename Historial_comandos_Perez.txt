@@ -1,0 +1,391 @@
+ls
+whoami
+ls
+ls -l
+ls -la
+cd .ssh
+ls
+ls -la
+cd .
+cd ..
+cd .ssh
+cat authorized_keys
+ls-l
+ls -l
+ls -la
+cat authorized_keys
+cat id_ed25519.pub
+ls -l
+pwd
+cd ..
+pwd
+ssh-keygen -t id25519
+ssh-keygen -t id_ed25519
+ssh-keygen -t id25519
+ssh-keygen -t id_25519
+cat *.*
+cat *
+cd .ssh
+cat *
+ssh-keygen -t ed25519
+ls -l
+cat id_ed25519.pub 
+cd ..
+cat .ssh/id_ed25519.pub
+cat /home/vagrant/.shh/id_ed25519.pub
+cd ..
+cat /home/vagrant/.shh/id_ed25519.pub
+cd ls
+cd ls -la
+ls
+cd vagrant
+mkdir clase4
+ls -l
+cd clase4
+cat > archivo1.txt
+ls -l
+cat << FIN
+linea1
+linea2
+linea3
+FIN
+
+FIN > archivo2.txt
+cat << FIN > archivo2.txt
+linea 4
+linea 5
+linea 6
+FIN
+
+cat archivo1.txt > archivo3.txt
+ls -l
+cat archivo3.txt
+cat archivo2.txt
+cat archivo2.txt >> archivo3.txt
+cat archivo3.txt
+cat archivo2.txt archivo1.txt > archivo4.txt
+ls -l
+cat archivo4.txt
+grep 6 archivo4.txt
+grep -v 6 archivo4.txt
+cd ..
+ls -l
+tree
+apt install tree
+sudo apt install tree
+sudo snap install tree
+tree
+cat /proc/cpuinfo | less
+grep cpu /proc/cpuinfo
+rmdir clase4
+mkdir clase5
+ls -l
+rmdir clase5
+ls -l
+cd clase4
+ls -l
+touch vacio.txt
+ls -l
+cp archivo1.txt copia1.txt
+ls -l
+rm vacio.txt
+ls -l
+mkdir copia
+ls -l
+mv copia1.txt copia/
+ls -l
+cd copia
+ls 
+ls -l
+cd ..
+tree
+rm -r copia/
+tree
+ls -l
+mkdir dir1 dir2 dir3
+tree
+mkdir -p dir1/dir2/dir3/dir4
+tree
+mkdir -p {ventas,compras}/{recibos,facturas}
+tree
+mkdir -p {ala1/dog{1..3},ala2/{dog{1..3},cat}}
+tree
+whoami
+clear
+whoami
+id
+cat /etc/passwd
+grep vagrant /etc/passwd
+cat /etc/shadow
+cat /etc/shadow
+sudo cat /etc/shadow
+sudo grep vagrant /etc/shadow
+sudo su
+groupadd Alumnos
+sudo groupadd Alumnos
+sudo cat /etc/groups
+sudo cat /etc/group
+sudo useradd -m -s /bin/bash -c "Alumno Nicolas" -G Alumnos Nicolas
+sudo cat /etc/user
+sudo cat /etc/users
+sudo cat /etc/group
+grep Nicolas /etc/passwd
+ls -l /home
+sudo passwd Nicolas
+su Nicolas
+su - Nicolas
+exit
+ls -l
+ls -l /home
+ls -l /home/ubuntu
+ls -l /home/Nicolas
+pwd
+ls -l
+su Nicolas
+pwd
+chown vagrant:vagrant /home/Nicolas/textoNicolas.txt
+sudo chown vagrant:vagrant /home/Nicolas/textoNicolas.txt
+mkdir clase5
+ls -l
+cd clase5
+ls -l
+echo linea1
+echo linea1 > practica1.txt
+ls -l
+echo linea1 > practica2.txt
+ls -l
+chmod 600 practiva1.txt
+chmod 600 practica1.txt
+ls -l
+chmod 222 practica2.txt
+ls -l
+chmod 444 practica2.txt
+ls -l
+echo linea2 >> practica2.txt
+sudo echo linea2 >> practica2.txt
+chmod 600 practica2.txt
+ls -l
+echo linea2 >> practica2.txt
+cat practica2.txt
+cd ..
+ls -l
+chmod 777 clase5
+ls -l
+cd clase5
+ls -l
+cd ..
+chmod -R 777 clase5
+cd clase5
+ls -l
+chmod 666 *.txt
+ls -l
+pwd
+clear
+cd ..
+clear
+ls -l
+cat README
+cd repogit
+pwd
+cd ..
+echo "ls -l" > script1
+cat script1
+bash script1
+echo "cat README" >> script1
+cat script1
+echo "cd repogit" >> script1
+cat script1
+bash script1
+pwd
+ls -l
+cat << FIN > script2
+pwd
+mkdir dir_script
+ls -l
+FIN
+
+cat script2
+bash script2
+vim script3.sh 
+ls -l
+cat script3.sh
+./script3.sh
+chmod 764 script3.sh
+ls -l
+./script3.sh
+vim script3.sh 
+cat script3.sh
+ls -l
+./script3.sh
+ls -l
+clear
+pwd
+ssh-keygen -t ed25519
+ls -l
+ls -la
+ls -l /.ssh
+ls -l .ssh/
+cat $HOME/.ssh/*.pub
+pwd
+d
+pwd
+lear
+pwr
+cleaclear
+lea
+clear
+pwd
+ls-l
+ls -l
+cd repogit
+ls -l
+git clone git@github.com:nicolas-Perz/TP_AySO_Perez_Nicolas.git
+pwd
+ls -l
+cd repogit
+ls -l
+git clone git@github.com:nicolas-Perz/TP_AySO_Perez_Nicolas.git
+cd TP_AySO_Perez_Nicolas/
+pwd
+ls -l
+cat /etc/os-release
+man grep 
+grep HOME_URL /etc/os-release
+grep home_url /etc/os-release
+grep HOME_UrL /etc/os-release
+grep -i HOME_UrL /etc/os-release
+grep -i home_url /etc/os-release
+grep -i home_url /etc/os-release > datos_url.txt
+ls -l
+ls -la
+ls -l
+cat datos_url.txt 
+git add .
+git status
+git commit -m "Creo datos_url.txt"
+git config --global user.email "nicolasperez4209@gmail.com"
+git config --global user.name "nicolas-Perz"
+git commit -m "Creo datos_url.txt"
+git status
+git add .
+git status
+git push
+exit
+pwd
+ls -l
+cd repogit/
+ls -l
+cd TP_AySO_Perez_Nicolas/
+pwd
+ls -l
+echo “Usuario=$(whoami)” > datos_usuario.txt 
+ls -l
+cat datos_usuario.txt 
+git status
+git commit -m "Añado datos_usuario.txt"
+git add .
+git commit -m "Añado datos_usuario.txt"
+git push
+git status
+cpuinfo
+lscpu
+grep "model name" /proc/cpuinfo | head -n1 >> datos_usuarios.txt
+ls -l
+rm datos_usuarios
+rm datos_usuarios.txt
+ls -l
+grep 11th Gen Intel(R) Core(TM) i3-1115G4 @ 3.00GHz /proc/cpuinfo | head -n1 >> datos_usuario.txt
+grep "11th Gen Intel(R) Core(TM) i3-1115G4 @ 3.00GHz" /proc/cpuinfo | head -n1 >> datos_usuario.txt
+ls -l
+cat datos_usuario.txt 
+git add .
+git commit -m "Añadiendo información de CPU"
+git status
+git push
+gti status
+git status
+pwd
+cat <<EOF>> README.md
+Alumno: Nicolas
+cat <<EOF>> README.md
+Alumno: Nicolas Perez
+
+Division: 115
+Turno: Mañana
+EOF
+
+cat README.md 
+git add .
+git commit -m "Añadiendo Readme y datos de usuario"
+git push
+cat README.md
+cat > README.md
+cat README.md
+nano README.md
+pwd
+ls -l
+cd repogit/
+ls -l
+cd TP_AySO_Perez_Nicolas/
+ls -l
+rm README.md.save 
+cat README.md
+cat > README.md
+cat README.md 
+cat <<EOF>> README.md
+Alumno: Nicolas Perez
+Division: 115
+Turno: Mañana
+EOF
+
+cat README.md 
+git add .
+git commit -m "Añadiendo README"
+git status
+git push
+mkdir -p {materia1,materia2}/uni{1..3}
+ls -l
+ls -l materia1
+ls -l materia2
+tree
+pwd
+cat script_dir.sh
+cat > script_dir.sh
+ls -l
+chmod 100 script_dir.sh 
+ls -l
+git status
+git add .
+git commit -m "Añado el script"
+git add .
+chmod 111 script_dir.sh 
+git add .
+chmod 100 script_dir.sh 
+#!/bin/bash
+ls -l
+rm script_dir.sh 
+ls -l
+rm -f script_dir.sh 
+ls -l
+cat > script_dir.sh
+cat script_dir.sh 
+cat > script_dir.sh 
+cat script_dir.sh 
+bash script_dir.sh
+./script_dir.sh
+rm -f script_dir.sh
+vim script_dir.sh
+ls -l
+ls -l script_dir.sh 
+chmod 100 script_dir.sh 
+ls -l
+git add .
+chmod 764 script_dir.sh 
+git add .
+git commit -m "Creo el script"
+git push
+git status
+cd ..
+pwd
+history -a
+ls -l
